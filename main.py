@@ -1,4 +1,3 @@
-pip install flask flask-sqlalchemy pyjwtfrom flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import jwt
