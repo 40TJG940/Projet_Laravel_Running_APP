@@ -9,6 +9,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///running.db'
 app.config['SECRET_KEY'] = 'votre_clé_secrète'  # À changer en production
 db = SQLAlchemy(app)
 
+
 # Modèles de données
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
